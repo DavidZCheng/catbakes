@@ -40,3 +40,70 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row; /* Change flex-direction to row for a horizontal layout */
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block; /* Add this line to display list items inline */
+  margin-right: 20px; /* Add margin to the right of each list item */
+}
+
+.navbar li:last-child {
+  margin-right: 0; /* Remove the margin for the last list item */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
