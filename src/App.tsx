@@ -12,7 +12,7 @@ import fifthImage from './assets/UGCtemplate01/8.png'
 function App() {
   
   return (
-    // <Router>
+    <Router>
       <nav className="navbar">
         <ul>
           <li>
